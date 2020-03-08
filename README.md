@@ -1,19 +1,9 @@
-[//]: # (Image References)
-
-<p align="center">
-
-[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
-
-</p>
-
 # p1-Navigation
 Udacity Deep Reinforcement Learning - Projekt 1 - Navigation
 
 In this project, an agent should be trained to navigate and collect bananas in a large, square world. 
 
-<p align="center">
-![Trained Agent][image1]
-</p>
+![Trained Agent](https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif)
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
@@ -28,7 +18,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 Getting Started
 Clone the DRLND Repository
-please follow the instructions in the DRLND GitHub repository [click here](https://github.com/udacity/deep-reinforcement-learning#dependencies) to set up your Python environment.
+please follow the instructions in the [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) to set up your Python environment.
 By following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project.
 
 1. You need only select the environment that matches your operating system:
