@@ -28,10 +28,10 @@ QNetwork(
 ![Plot of scores vs. episodes](https://github.com/baerwind/p1-Navigation/blob/master/rewards.png)
 
 # Ideas for Future Work
-choose a different network architecture
-    deeper network
-    use dropout
-use different learning algorithm
-    prioritized experience replay
-    Dueling DQN
-    Rainbow
+- choose a different network architecture
+  - deeper network
+  - use dropout
+- use different learning algorithm
+  - prioritized experience replay
+  - Dueling DQN
+  - Rainbow
