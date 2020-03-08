@@ -4,22 +4,23 @@ The algorithm to train the agent is a deep Q-learning algorithm as described in 
 
 
 The hyperparameters used are
-    BUFFER_SIZE = int(1e5) # replay buffer size
-    BATCH_SIZE = 64 # minibatch size
-    GAMMA = 0.99 # discount factor
-    TAU = 1e-3 # for soft update of target parameters
-    LR = 5e-4 # learning rate
-    UPDATE_EVERY = 4 # how often to update the network
+*BUFFER_SIZE = int(1e5) # replay buffer size
+*BATCH_SIZE = 64 # minibatch size
+*GAMMA = 0.99 # discount factor
+*TAU = 1e-3 # for soft update of target parameters
+*LR = 5e-4 # learning rate
+*UPDATE_EVERY = 4 # how often to update the network
 
 
 
 The Q-Network does consists of 3 fully connected layers
+'''
 QNetwork(
   (fc1): Linear(in_features=37, out_features=64, bias=True)
   (fc2): Linear(in_features=64, out_features=64, bias=True)
   (fc3): Linear(in_features=64, out_features=4, bias=True)
 )
-
+'''
 
 
 # Plot of Rewards
