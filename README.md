@@ -28,10 +28,10 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 Getting Started
 Clone the DRLND Repository
-please follow the instructions in the DRLND GitHub repository to set up your Python environment.
+please follow the instructions in the DRLND GitHub repository [click here](https://github.com/udacity/deep-reinforcement-learning#dependencies) to set up your Python environment.
 By following these instructions, you will install PyTorch, the ML-Agents toolkit, and a few more Python packages required to complete the project.
 
-You need only select the environment that matches your operating system:
+1. You need only select the environment that matches your operating system:
 
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
